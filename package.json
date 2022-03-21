@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "serve-api": "json-server --watch server/db-shop.json --port 8080"
   },
   "private": true,
   "dependencies": {
